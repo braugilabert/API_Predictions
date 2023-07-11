@@ -1,0 +1,16 @@
+FROM python:3.7-alpine
+
+ENV PYTHONUNBUFFERED=1
+# Crear un directorio para la app
+WORKDIR /app
+
+# Instalar dependencias de requirements
+COPY requirements.txt .
+RUN pip install -r requirements.txt
+
+# Copiar el resto del código de la app
+COPY . ./
+EXPOSE 5000
+
+# Iniciar la app (comando)
+CMD ["python3", "app_model_db.py"]
