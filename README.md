@@ -5,7 +5,7 @@ En este ejercicio despliego un modelo de ML en una API para su consumo. He desar
 He tomado como ejemplo inventado una empresa distribuidora que pretende utilizar un modelo desarrollado por el departamento de Data Science, que consigue hacer una predicción de las ventas a partir de los gastos en marketing de anuncios en televisión, radio y periódicos. Quieren incorporar estos datos dentro de su página web interna, donde comparten todo tipo de información relativa a resultados de la empresa, ventas, adquisiciones, etc... 
 La web está desarrollada en AngularJS, mientras que el modelo ha sido desarrollado en Python, por lo que se precisa de una interfaz de comunicación entre ambos sistemas.
 
-Por tanto, es necesario implementar un modeloque se pueda consumir desde la propia web, comunicándose con una BBDD para ingestar o reentrenar el modelo. 
+Por tanto, es necesario implementar un modelo que se pueda consumir desde la propia web, comunicándose con una BBDD para ingestar o reentrenar el modelo. 
 
 El microservicio tiene las siguientes características:
 
