@@ -7,7 +7,7 @@ La web está desarrollada en AngularJS, mientras que el modelo ha sido desarroll
 
 Por tanto, es necesario implementar un modelo que se pueda consumir desde la propia web, comunicándose con una BBDD para ingestar o reentrenar el modelo. 
 
-El microservicio tiene las siguientes características:
+El modelo tiene las siguientes características:
 
 - Ofrece la predicción de ventas a partir de todos los valores de gastos en publicidad. (/v2/predict)
 - Un endpoint que almacena nuevos registros en la base de datos (algo previamente creado).(/v2/ingest_data)
@@ -16,5 +16,3 @@ El microservicio tiene las siguientes características:
 NOTAS:
 Si hay problemas con la ruta, ¡avisadme!.
 El desarrollo de un modelo de machine learning no es realmente el objetivo del ejercicio, sino el desarrollo de una API con Flask.
-
-
